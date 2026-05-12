@@ -1,10 +1,10 @@
 module github.com/open-telemetry/opentelemetry-collector-contrib/extension/encoding/jaegerencodingextension
 
-go 1.25.0
+go 1.26.0
 
 require (
 	github.com/gogo/protobuf v1.3.2
-	github.com/jaegertracing/jaeger-idl v0.6.0
+	github.com/jaegertracing/jaeger-idl v0.7.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/extension/encoding v0.152.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/jaeger v0.152.0
 	github.com/stretchr/testify v1.11.1
